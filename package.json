@@ -5,4 +5,5 @@
   "scripts": { "dev": "vercel dev", "build": "tsc -p ." },
   "dependencies": { "@vercel/node": "3.1.7", "pg": "8.11.5" },
   "devDependencies": { "typescript": "5.5.4" }
+  "@types/pg": "8.10.4"
 }
