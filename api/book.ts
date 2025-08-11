@@ -1,5 +1,6 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { Pool } from "pg";
+import pg from "pg";
+const { Pool } = pg;
 import crypto from "crypto";
 const pool = new Pool({ connectionString: process.env.DATABASE_URL, ssl: { rejectUnauthorized: false } });
 const pad=(n:number)=> n<10?`0${n}`:`${n}`;
