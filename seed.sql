@@ -31,7 +31,7 @@ VALUES (
       "2025-07-14","2025-08-15","2025-11-01","2025-11-11","2025-12-25"
     ],
     "notifications": {
-      "to": ["reservations@chezamelie.fr"],
+      "to": ["lucassainteanne@gmail.com"],
       "from": "onboarding@resend.dev",
       "subjectPrefix": "Nouvelle réservation • "
     }
